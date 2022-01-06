@@ -9,8 +9,8 @@ p: The retailing price per unit (p > c)
 v: The salvage value per unit (v < c)  
 s: The shortage penalty cost per unit  
 Q: The order quantity, a decision variable  
-Q0: The value of the product the retailer needs on the barter platform is equal to the value of Q0 units of the product that the retailer sells  
-Qc*: The optimal order quantity in the classical newsvendor model   
+Q_0: The value of the product the retailer needs on the barter platform is equal to the value of Q0 units of the product that the retailer sells  
+Q_c*: The optimal order quantity in the classical newsvendor model   
 Q*: The optimal order quantity in the newsvendor model with barter  
 r: The retailer pays r percent of retail price to the barter platform as the commission of per unit product  
 π(Q,x): The total profit if the order size is Q units and the customer demand is x
