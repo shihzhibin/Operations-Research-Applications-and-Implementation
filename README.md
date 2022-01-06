@@ -1,5 +1,5 @@
 # Operations-Research-Applications-and-Implementation
-The newsvendor problem with barter exchange
+The newsvendor problem with barter exchange /r
 The notation used in the paper is as follows:
 x: stochastic demand, a random variable
 f(x): the probability density function of x
