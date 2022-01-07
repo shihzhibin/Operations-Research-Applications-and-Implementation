@@ -31,7 +31,7 @@ This repository is a tutorial for the implementation of __The newsvendor problem
 __There are two basic types of barter:__  
 (1) Personal barter and retail barter  
 (2) Commercial barter    
-> We only focus on the `commercial barter` in this tutorial  
+> We only focus on the __commercial barter__ in this tutorial  
 > __The trade sequence is as follows:__  
 > __Step 1:__  
 > `Firm A` registers on a barter exchange platform and provides some essential information, the broker of the platform will help `Firm A` to find `Firm B` that exactly needs the product of `Firm A` and that provides the product that `Firm A` exactly needs.  
