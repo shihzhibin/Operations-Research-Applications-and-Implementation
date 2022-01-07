@@ -57,21 +57,51 @@ __There are two basic types of barter:__
     <td>f(x)</td>
     <td>The probability density function of x</td>
   </tr>
+  <tr>
+    <td>F(x)</td>
+    <td>The cumulative distribution function of x</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td>The supplier's wholesale price</td>
+  </tr>
+  <tr>
+    <td>p</td>
+    <td>The retailing price per unit (p > c)</td>
+  </tr>
+  <tr>
+    <td>v</td>
+    <td>The salvage value per unit (v < c)</td>
+  </tr>
+  <tr>
+    <td>s</td>
+    <td>The shortage penalty cost per unit</td>
+  </tr>
+  <tr>
+    <td>Q</td>
+    <td>The order quantity, a decision variable</td>
+  </tr>
+  <tr>
+    <td>Q_0</td>
+    <td>The value of the product the retailer needs on the barter platform is equal to the value of Q0 units of the product that the retailer sells</td>
+  </tr>
+  <tr>
+    <td>Q_c*</td>
+    <td>The optimal order quantity in the classical newsvendor model</td>
+  </tr>
+  <tr>
+    <td>Q*</td>
+    <td>The optimal order quantity in the newsvendor model with barter</td>
+  </tr>
+  <tr>
+    <td>r</td>
+    <td>The retailer pays r percent of retail price to the barter platform as the commission of per unit product</td>
+  </tr>
+  <tr>
+    <td>π(Q,x)</td>
+    <td>The total profit if the order size is Q units and the customer demand is x</td>
+  </tr>
 </table>
-
-x: Stochastic demand, a random variable  
-f(x): The probability density function of x  
-F(x): The cumulative distribution function of x  
-c: The supplier's wholesale price  
-p: The retailing price per unit (p > c)  
-v: The salvage value per unit (v < c)  
-s: The shortage penalty cost per unit  
-Q: The order quantity, a decision variable  
-Q_0: The value of the product the retailer needs on the barter platform is equal to the value of Q0 units of the product that the retailer sells  
-Q_c*: The optimal order quantity in the classical newsvendor model   
-Q*: The optimal order quantity in the newsvendor model with barter  
-r: The retailer pays r percent of retail price to the barter platform as the commission of per unit product  
-π(Q,x): The total profit if the order size is Q units and the customer demand is x
 ## __The classical newsvendor model with consumption__
 # __Visualization__  
 We conduct the sensitivity analysis to examine the demand uncertainty and barter uncertainty on the newsvendor's decisions and profit. With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).  
