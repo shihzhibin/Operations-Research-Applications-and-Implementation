@@ -119,3 +119,8 @@ We conduct the sensitivity analysis to examine the demand uncertainty and barter
   <img src="./Fig.3.png" width="400" height="300"/>
   <center><b>Fig. 3.</b> Impact of the commission on optimal inventory and profit</center>
 </p>
+
+<p style="text-align:center">
+  <img src="./Fig.4.png" width="400" height="300"/>
+  <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
+</p>
