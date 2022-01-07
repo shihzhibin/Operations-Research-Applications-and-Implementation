@@ -1,5 +1,9 @@
 # Operations-Research-Applications-and-Implementation
 The newsvendor problem with barter exchange  
+
+  We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is stochastic and characterized by a random variable. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
+  We suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to maximize its own expected profit.  
+ 
 The notation used in the paper is as follows:  
 x: Stochastic demand, a random variable  
 f(x): The probability density function of x  
