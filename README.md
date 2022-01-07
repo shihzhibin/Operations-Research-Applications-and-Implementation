@@ -32,6 +32,9 @@ There are two basic types of barter:
 (1) Personal barter and retail barter  
 (2) Commercial barter    
 > We only focus on the `commercial barter` in this tutorial  
+> The trade sequence is as follows:  
+> "Step 1":  
+> `Firm A` registers on a barter exchange platform and provides some essential information, the broker of the platform will help `Firm A` to find `Firm B` that exactly needs the product of `Frim A` and that provides the product that `Firm A` exactly needs.   
 # __The Model__
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
