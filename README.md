@@ -44,11 +44,11 @@ __There are two basic types of barter:__
 (2) If customer demand is `less than` Q, the retailer will trade the unsold product A for the product it needs on a barter platform  
 (3) If there are still some `unsold product A` after barter exchange, the retailer will dispose of them at a very low price  
  *  The notation used in this tutorial is as follows:    
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+  | Tables        | Are           | Cool  |
+  | ------------- |:-------------:| -----:|
+  | col 3 is      | right-aligned | $1600 |
+  | col 2 is      | centered      |   $12 |
+  | zebra stripes | are neat      |    $1 |
 
 x: Stochastic demand, a random variable  
 f(x): The probability density function of x  
