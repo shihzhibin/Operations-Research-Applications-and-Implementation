@@ -6,7 +6,7 @@
     <li>
       <a href="#introduction">Introduction</a>
       <ul>
-        <li><a href="#the-barter-exchange">The barter exchange</a></li>
+        <li><a href="#the-barter-exchange">The Barter Exchange</a></li>
     </li>
       </ul>
     <li>
@@ -31,6 +31,7 @@ The barter exchange is an alternative to move distressed inventory, it has becom
 There are two basic types of barter:
 * Personal barter and retail barter
 * Commercial barter  
+# __The Model__
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
 * The retailer orders `Q units of the product A` from the supplier at a `fixed price` at the beginning of the selling season, then it sells product A to its customers at the `retail price`.
