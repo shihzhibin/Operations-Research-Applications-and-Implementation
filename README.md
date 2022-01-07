@@ -135,3 +135,8 @@ We conduct the sensitivity analysis to examine the `demand uncertainty` and `bar
   <img src="./Fig.6.png" width="400" height="300"/>
   <center><b>Fig. 6.</b> Impact of demand uncertainty on inventory and profit increase</center>
 </p>
+
+<p style="text-align:center">
+  <img src="./Fig.7.png" width="400" height="300"/>
+  <center><b>Fig. 7.</b> Impact of barter uncertainty on the optimal inventory and profit</center>
+</p>
