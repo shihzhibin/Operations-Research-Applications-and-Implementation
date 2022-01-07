@@ -126,4 +126,7 @@ We conduct the sensitivity analysis to examine the `demand uncertainty` and `bar
   <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
 </p>
 
-
+<p style="text-align:center">
+  <img src="./Fig.5.png" width="400" height="300"/>
+  <center><b>Fig. 5.</b> Impact of demand uncertainty on the optimal inventory and profit</center>
+</p>
