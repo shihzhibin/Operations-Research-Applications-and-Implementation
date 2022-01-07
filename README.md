@@ -59,8 +59,7 @@ r: The retailer pays r percent of retail price to the barter platform as the com
 π(Q,x): The total profit if the order size is Q units and the customer demand is x
 ## __The classical newsvendor model with consumption__
 # __Visualization__  
-We conduct the sensitivity analysis to examine the demand uncertainty and barter uncertainty on the   
-With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).
+We conduct the sensitivity analysis to examine the demand uncertainty and barter uncertainty on the newsvendor's decisions and profit. With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).  
 <p style="text-align:center">
   <img src="./Fig.1.png" width="400" height="300"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
