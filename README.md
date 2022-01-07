@@ -60,5 +60,5 @@ r: The retailer pays r percent of retail price to the barter platform as the com
 ## __The classical newsvendor model with consumption__
 # __Visualization__
 ![image](https://user-images.githubusercontent.com/73217181/148517204-830a68d5-8cf5-4c61-8956-52c8f49698db.png)  
-  <center><b>Fig. 3.</b> Decoding of the box packing sequence</center>
+  <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 
