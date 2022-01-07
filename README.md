@@ -102,6 +102,7 @@ __There are two basic types of barter:__
     <td>The total profit if the order size is Q units and the customer demand is x</td>
   </tr>
 </table>
+
 ## __The classical newsvendor model with consumption__
 # __Visualization__  
 We conduct the sensitivity analysis to examine the demand uncertainty and barter uncertainty on the newsvendor's decisions and profit. With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).  
