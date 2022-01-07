@@ -69,3 +69,8 @@ We conduct the sensitivity analysis to examine the demand uncertainty and barter
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
+
+<p style="text-align:center">
+  <img src="./Fig.3.png" width="400" height="300"/>
+  <center><b>Fig. 3.</b> Impact of the commission on optimal inventory and profit</center>
+</p>
