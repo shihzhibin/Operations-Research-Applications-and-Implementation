@@ -8,6 +8,7 @@
       <ul>
         <li><a href="#biased-random-key-enetic-lgorithmn">The barter exchange</a></li>
     </li>
+      </ul>
     <li>
       <a href="#problem-description">Problem Description</a>
     </li>
