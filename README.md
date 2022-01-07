@@ -12,7 +12,7 @@
     <li>
       <a href="#model">The Model</a>
       <ul>
-        <li><a href="#biased-random-key-enetic-lgorithmn">The classical newsvendor model with consumption</a></li>
+        <li><a href="#biased-random-key-enetic-lgorithmn">The Classical Newsvendor Model with Consumption</a></li>
       </ul>
     </li>
     <li><a href="#visualization">Visualization</a></li>
@@ -58,3 +58,4 @@ Q*: The optimal order quantity in the newsvendor model with barter
 r: The retailer pays r percent of retail price to the barter platform as the commission of per unit product  
 π(Q,x): The total profit if the order size is Q units and the customer demand is x
 ## __The classical newsvendor model with consumption__
+# __Visualization__
