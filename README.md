@@ -65,4 +65,7 @@ With the increasing value of Q_0, the retailer's order quantity increases while 
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
-
+<p style="text-align:center">
+  <img src="./Fig.2.png" width="400" height="300"/>
+  <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
+</p>
