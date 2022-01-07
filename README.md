@@ -32,7 +32,7 @@ There are two basic types of barter:
 (1) Personal barter and retail barter  
 (2) Commercial barter    
 > We only focus on the `commercial barter` in this tutorial  
-> The trade sequence is as follows:  
+> __The trade sequence is as follows__:  
 > __Step 1__:  
 > `Firm A` registers on a barter exchange platform and provides some essential information, the broker of the platform will help `Firm A` to find `Firm B` that exactly needs the product of `Firm A` and that provides the product that `Firm A` exactly needs.  
 > __Step 2__:  
