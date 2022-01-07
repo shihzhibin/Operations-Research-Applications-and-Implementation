@@ -5,6 +5,8 @@
   <ol>
     <li>
       <a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#biased-random-key-enetic-lgorithmn">The barter exchange</a></li>
     </li>
     <li>
       <a href="#problem-description">Problem Description</a>
