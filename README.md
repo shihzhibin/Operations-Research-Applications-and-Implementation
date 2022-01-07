@@ -6,14 +6,14 @@
     <li>
       <a href="#introduction">Introduction</a>
       <ul>
-        <li><a href="#biased-random-key-enetic-lgorithmn">The barter exchange</a></li>
+        <li><a href="#the-barter-exchange">The barter exchange</a></li>
     </li>
       </ul>
     <li>
       <a href="#problem-description">Problem Description</a>
     </li>
     <li>
-      <a href="#methodology">The Model</a>
+      <a href="#model">The Model</a>
       <ul>
         <li><a href="#biased-random-key-enetic-lgorithmn">Biased Random-Key Genetic Algorithmn</a></li>
         <li><a href="#placement-strategy">Placement Strategy</a></li>
