@@ -31,7 +31,7 @@ This repository is a tutorial for the implementation of __The newsvendor problem
 There are two basic types of barter:  
 (1) Personal barter and retail barter  
 (2) Commercial barter    
-> We only focus on the commercial barter in this tutorial  
+> We only focus on the `commercial barter` in this tutorial  
 # __The Model__
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
