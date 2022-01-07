@@ -44,11 +44,18 @@ __There are two basic types of barter:__
 (2) If customer demand is `less than` Q, the retailer will trade the unsold product A for the product it needs on a barter platform  
 (3) If there are still some `unsold product A` after barter exchange, the retailer will dispose of them at a very low price  
  *  The notation used in this tutorial is as follows:    
-  | Tables        | Are           | Cool  |
-  | ------------- |:-------------:| -----:|
-  | col 3 is      | right-aligned | $1600 |
-  | col 2 is      | centered      |   $12 |
-  | zebra stripes | are neat      |    $1 |
+<table>
+  <tr>
+    <td>項次</td>
+    <td>品名</td>
+    <td>描述</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>iPhone 5</td>
+    <td>iPhone 5是由蘋果公司開發的觸控式螢幕智慧型手機，是第六代的iPhone和繼承前一代的iPhone 4S。這款手機的設計比較以前產品更薄、更輕，及擁有更高解析度及更廣闊的4英寸觸控式螢幕，支援16:9寬螢幕。這款手機包括了一個自定義設計的ARMv7處理器的蘋果A6的更新、iOS 6操作系統，並且支援高速LTE網路。</td>
+  </tr>
+</table>
 
 x: Stochastic demand, a random variable  
 f(x): The probability density function of x  
