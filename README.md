@@ -57,3 +57,4 @@ Q_c*: The optimal order quantity in the classical newsvendor model
 Q*: The optimal order quantity in the newsvendor model with barter  
 r: The retailer pays r percent of retail price to the barter platform as the commission of per unit product  
 π(Q,x): The total profit if the order size is Q units and the customer demand is x
+## __The classical newsvendor model with consumption__
