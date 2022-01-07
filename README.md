@@ -106,8 +106,8 @@ __There are two basic types of barter:__
 # __Visualization__  
 We conduct the sensitivity analysis to examine the demand uncertainty and barter uncertainty on the newsvendor's decisions and profit. With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).  
 <p style="text-align:center">
-  <img src="./Fig.1.png" width="400" height="300"/><img src="./Fig.2.png" align='left' width="400" height="300"/>
-  <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center><center>  <b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
+  <img src="./Fig.1.png" width="400" height="300"/>
+  <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
 <p style="text-align:center">
