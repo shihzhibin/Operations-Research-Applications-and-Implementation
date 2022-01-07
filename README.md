@@ -36,7 +36,9 @@ __There are two basic types of barter:__
 > __Step 1:__  
 > `Firm A` registers on a barter exchange platform and provides some essential information, the broker of the platform will help `Firm A` to find `Firm B` that exactly needs the product of `Firm A` and that provides the product that `Firm A` exactly needs.  
 > __Step 2:__  
-> `Firm A` and `Firm B` can trade their product `without money`, and pay the broker a commission  that typically is about `5% - 15%` of the trade value.   
+> `Firm A` and `Fir# __Introduction__m B` can trade their product `without money`, and pay the broker a commission  that typically is about `5% - 15%` of the trade value.  
+# __Problem Description__   
+
 # __The Model__
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
