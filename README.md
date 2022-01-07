@@ -35,7 +35,7 @@ __There are two basic types of barter:__
 > __Step 2:__  
 > `Firm A` and `Firm B` can trade their product `without money`, and pay the broker a commission  that typically is about `5% - 15%` of the trade value.  
 > 
-> The aim of barter is to maintain trade volumes and balance them while maximizing the utility of the participants.  
+> The aim of the barter is to maintain trade volumes and balance them while maximizing the utility of the participants.  
 # __The Model__
 * We consider the `single-period` inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
