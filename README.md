@@ -1,5 +1,25 @@
 # Operations-Research-Applications-and-Implementation
-## The newsvendor problem with barter exchange  
+## Tutorial of the newsvendor problem with barter exchange  
+<details open="open">
+  <summary><b>Table of Contents</b></summary>
+  <ol>
+    <li>
+      <a href="#introduction">Introduction</a>
+    </li>
+    <li>
+      <a href="#problem-description">Problem Description</a>
+    </li>
+    <li>
+      <a href="#methodology">Methodology</a>
+      <ul>
+        <li><a href="#biased-random-key-enetic-lgorithmn">Biased Random-Key Genetic Algorithmn</a></li>
+        <li><a href="#placement-strategy">Placement Strategy</a></li>
+      </ul>
+    </li>
+    <li><a href="#visualization">Visualization</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ol>
+</details>
 
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
 * Suppose the retailer purchases only a single product A from the supplier, and the retail price is set by the supplier or the market. This problem is to decide the optimal order quantity to `maximize its own expected profit`.  
