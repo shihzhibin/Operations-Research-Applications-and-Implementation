@@ -12,8 +12,7 @@
     <li>
       <a href="#model">The Model</a>
       <ul>
-        <li><a href="#biased-random-key-enetic-lgorithmn">Biased Random-Key Genetic Algorithmn</a></li>
-        <li><a href="#placement-strategy">Placement Strategy</a></li>
+        <li><a href="#biased-random-key-enetic-lgorithmn">The classical newsvendor model with consumption</a></li>
       </ul>
     </li>
     <li><a href="#visualization">Visualization</a></li>
