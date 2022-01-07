@@ -29,8 +29,8 @@ This repository is a tutorial for the implementation of __The newsvendor problem
 ## __The Barter Exchange__
 > The barter exchange is an alternative to move distressed inventory, it has become increasingly popular in business. Many companies barter their unsold product for the product they need via barter exchange platforms at full prices.  
 There are two basic types of barter:
-> * Personal barter and retail barter
-> * Commercial barter  
+(1) Personal barter and retail barter
+(2) Commercial barter  
 > We only focus on the commercial barter in this tutorial  
 # __The Model__
 * We consider the single-period inventory (newsvendor) problem with barter exchange from the retailer's perspective, in which the customer's demand is `stochastic` and characterized by a `random variable`. The retailer determines the optimal stocking policy to satisfy the customer demand at the beginning of the selling season.  
