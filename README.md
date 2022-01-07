@@ -59,5 +59,7 @@ r: The retailer pays r percent of retail price to the barter platform as the com
 π(Q,x): The total profit if the order size is Q units and the customer demand is x
 ## __The classical newsvendor model with consumption__
 # __Visualization__
+<p style="text-align:center">
 ![image](https://user-images.githubusercontent.com/73217181/148517204-830a68d5-8cf5-4c61-8956-52c8f49698db.png)  
   <center><b>Fig. 3.</b> Decoding of the box packing sequence</center>
+</p>
