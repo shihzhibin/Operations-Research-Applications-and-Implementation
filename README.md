@@ -61,7 +61,7 @@ r: The retailer pays r percent of retail price to the barter platform as the com
 # __Visualization__  
 With the increasing value of Q_0, the retailer's order quantity increases while the profit decreases (Fig. 1).
 <p style="text-align:center">
-  <img src="./Fig.1.png" width="100" height="50"/>
+  <img src="./Fig.1.png" width="200" height="200"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
