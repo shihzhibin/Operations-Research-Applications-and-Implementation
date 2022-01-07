@@ -44,7 +44,7 @@ __There are two basic types of barter:__
 (1) If customer demand is `greater than` Q, then it will pay `the shortage penalty cost` for the unsatisfied demand  
 (2) If customer demand is `less than` Q, the retailer will trade the unsold product A for the product it needs on a barter platform  
 (3) If there are still some `unsold product A` after barter exchange, the retailer will dispose of them at a very low price  
- *  The notation used in the paper is as follows:  
+ *  The notation used in this tutorial is as follows:  
 x: Stochastic demand, a random variable  
 f(x): The probability density function of x  
 F(x): The cumulative distribution function of x  
