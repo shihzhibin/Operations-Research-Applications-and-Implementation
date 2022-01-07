@@ -37,6 +37,7 @@ __There are two basic types of barter:__
 > `Firm A` registers on a barter exchange platform and provides some essential information, the broker of the platform will help `Firm A` to find `Firm B` that exactly needs the product of `Firm A` and that provides the product that `Firm A` exactly needs.  
 > __Step 2:__  
 > `Firm A` and `Firm B` can trade their product `without money`, and pay the broker a commission  that typically is about `5% - 15%` of the trade value.  
+> 
 > The aim of barter is to maintain trade volumes and balance them while maximizing the utility of the participants.
 # __Problem Description__   
 
