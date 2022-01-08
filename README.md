@@ -10,7 +10,7 @@
     </li>
       </ul>
     <li>
-      <a href="#model">The Model</a>
+      <a href="#model">The Model</a></li>
       <ul>
         <li><a href="#biased-random-key-enetic-lgorithmn">The Classical Newsvendor Model with Consumption</a></li>
       </ul>
