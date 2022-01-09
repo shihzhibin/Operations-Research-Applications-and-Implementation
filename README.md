@@ -114,6 +114,9 @@ The __retailer's expected profit__ is
 <p style="text-align:center">
   <img src="./retailer's expected profit.png"/>
 </p>
+
+The retailer's optimal order quantity satisfies the following equation:  
+
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` and `barter uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following are the sensitivity analyses of `demand uncertainty` and `barter uncertainty`.  
 __1. Demand uncertainty__  
