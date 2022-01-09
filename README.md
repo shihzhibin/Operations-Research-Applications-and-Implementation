@@ -180,3 +180,5 @@ Different from the effect of demand uncertainty, with increasing barter supply u
   <img src="./Fig.8.png" width="400" height="300"/>
   <center><b>Fig. 8.</b> Impact of barter uncertainty on inventory and profit increase</center>
 </p>
+
+# __Conclusion__ 
