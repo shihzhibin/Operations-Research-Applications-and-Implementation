@@ -120,8 +120,11 @@ The __retailer's optimal order quantity__ satisfies the following equation:
 <p style="text-align:center">
   <img src="./fractile formula.png"/>
 </p>
-
-## __The Newsvendor Model with Barter Exchange__
+## __The Newsvendor Model with Barter Exchange__  
+In this part, we are going to discuss the retailer's profits for the following three cases:  
+__Case 1.__ Q≤x (The retailer's order quantity Q is less than the customer demand x), the retailer pays `the shortage penalty cost s` for `the unsatisfied demand`  
+The retailer's profit π(Q,x) = (p-c)Q-s(x-Q)-pQ_0  
+__Case 2.__ x<Q≤x+Q_0  
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` and `barter uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following are the sensitivity analyses of `demand uncertainty` and `barter uncertainty`.  
 __1. Demand uncertainty__  
