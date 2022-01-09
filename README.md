@@ -12,7 +12,8 @@
     <li>
       <a href="#model">The Model</a>
       <ul>
-        <li><a href="#biased-random-key-enetic-lgorithmn">The Classical Newsvendor Model with Consumption</a></li>
+        <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
+        <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
       </ul>
     </li>
     <li><a href="#visualization">Visualization</a></li>
@@ -103,7 +104,7 @@ __There are two basic types of barter:__
   </tr>
 </table>
 
-## __The classical newsvendor model with consumption__  
+## __The Classical Newsvendor Model with Consumption__  
 In this section, we incorporate the retailer's consumption into the model.  
 The __retailer's profit per period__ is  
 <p style="text-align:center">
@@ -120,6 +121,7 @@ The __retailer's optimal order quantity__ satisfies the following equation:
   <img src="./fractile formula.png"/>
 </p>
 
+## __The Newsvendor Model with Barter Exchange__
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` and `barter uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following are the sensitivity analyses of `demand uncertainty` and `barter uncertainty`.  
 __1. Demand uncertainty__  
