@@ -120,12 +120,15 @@ The __retailer's optimal order quantity__ satisfies the following equation:
 F(Q_c*)=(p+s-c)/(p+s-v)  
 ## __The Newsvendor Model with Barter Exchange__  
 In this part, we are going to discuss the retailer's profits for the following three cases:  
+
 __Case 1.__ Q≤x (The retailer's order quantity Q is less than the customer demand x)  
 In this case, the retailer pays `the shortage penalty cost s` for `the unsatisfied demand`    
 The retailer's profit `π(Q,x) = (p-c)Q-s(x-Q)-pQ_0`  
+
 __Case 2.__ x<Q≤x+Q_0  
 In this case, since the order quantity Q is greater than the customer demand x, there are Q-x units of the product are unsold. Therefore, the retailer trades Q-x units of the product A for those the retailer needs on the barter exchange platform, pays `the commission rp(Q-x)`, and buys product from the market , whose value equals to `Q_0-(Q-x)` units of the product A  
 The retailer's profit `π(Q,x) = px-rp(Q-x)-p(Q_0-Q+x)-cQ`  
+
 __Case 3.__ Q>x+Q_0    
 In this case, the retailer barters its product A for all the product it needs at the cost of `the commission rpQ_0` and disposes of the rest the product at v  
 The retailer's profit `π(Q,x) = px-rpQ_0+v(Q-Q_0-x)-cQ`  
