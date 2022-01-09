@@ -117,7 +117,7 @@ The __retailer's expected profit__ is
 
 The __retailer's optimal order quantity__ satisfies the following equation:  
 <p style="text-align:center">
-  <img src="./fractile formula.png" width="400" height="300"/>
+  <img src="./fractile formula.png" width="800" height="700"/>
 </p>
 
 # __Visualization__  
