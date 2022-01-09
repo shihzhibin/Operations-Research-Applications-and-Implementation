@@ -117,10 +117,6 @@ The __retailer's expected profit__ is
 </p>
 
 The __retailer's optimal order quantity__ satisfies the following equation:  
-<p style="text-align:center">
-  <img src="./fractile formula.png"/>
-</p>
-
 ## __The Newsvendor Model with Barter Exchange__  
 In this part, we are going to discuss the retailer's profits for the following three cases:  
 __Case 1.__ Q≤x (The retailer's order quantity Q is less than the customer demand x), the retailer pays `the shortage penalty cost s` for `the unsatisfied demand`  
