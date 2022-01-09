@@ -182,3 +182,6 @@ Different from the effect of demand uncertainty, with increasing barter supply u
 </p>
 
 # __Conclusion__ 
+# Our work provides the guidance for the retailer on how to make inventory decision when using the barter platform. With higher demand uncertainty, the retailer should increase the order quantity, while with higher barter uncertainty the retailer should order less products.  
+# Barter can be used by the retailer to cope with the demand uncertainty, especially when the value of the product is larger, and barter uncertainty is lower. In practice, the retailer should consider the joint purchasing decisions of multiple products to take full advantage of barter exchange. For instance, purchasing one product A with higher demand uncertainty and another product B that can be efficiently bartered with unsold product A will be more profitable.  
+# For the barter platform, decreasing the barter uncertainty is significant to attract more barter platform users.
