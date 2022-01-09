@@ -109,6 +109,7 @@ The __retailer's profit per period__ is
 <p style="text-align:center">
   <img src="./retailer's profit.png"/>
 </p>
+
 The __retailer's expected profit__ is  
 <p style="text-align:center">
   <img src="./retailer's expected profit.png"/>
