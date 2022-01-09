@@ -129,6 +129,7 @@ The retailer's profit `π(Q,x) = px-rp(Q-x)-p(Q_0-Q+x)-cQ`
 __Case 3.__ Q>x+Q_0    
 In this case, the retailer barters its product A for all the product it needs at the cost of `the commission rpQ_0` and disposes of the rest the product at v  
 The retailer's profit `π(Q,x) = px-rpQ_0+v(Q-Q_0-x)-cQ`  
+
 To sum up the above three cases, we have    
 <p style="text-align:center">
   <img src="./retailer's profit of the three cases.png"/>
