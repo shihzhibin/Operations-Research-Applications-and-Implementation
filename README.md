@@ -104,6 +104,18 @@ __There are two basic types of barter:__
   </tr>
 </table>
 
+## Python + Gurobi Implementation
+```python 
+#Download package
+import numpy as np
+import matplotlib.pyplot as plt
+from IPython.html.widgets import interact
+%pylab inline
+
+#probability density function
+def normalpdf(x, u, v):
+    return 1 / (v * np.sqrt(2 * np.pi)) * np.exp(-(x - u) ** 2 / 2 / v**2)
+```
 ## __The Classical Newsvendor Model with Consumption__  
 In this section, we incorporate the retailer's consumption into the model.  
 The __retailer's profit per period__ is  
