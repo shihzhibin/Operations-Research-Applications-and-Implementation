@@ -135,13 +135,32 @@ The __retailer's profit per period__ is
   <img src="./retailer's profit.png"/>
 </p>
 
+```python
+"""典型報童利潤"""
+def class_profit(Q, d, Q0):
+    
+    if Q <= d:
+        return Q*(price - cost)- s*(d - Q) - Q0*price
+    else:
+        return d*price + vi*(Q - d) - cost*Q - Q0*price
+```
 The __retailer's expected profit__ is  
 <p style="text-align:center">
   <img src="./retailer's expected profit.png"/>
 </p>
-
+```python
+"""典型易貨交換最佳訂貨量(常態分布)"""
+def class_optorder(Q0):
+    
+    profitline = [np.sum(np.array([class_profit(Q, d, Q0) for d in x]) * y)for Q in x]
+    max_value = np.max(profitline)
+    max_indx = np.argmax(profitline)
+    
+    return max_indx, max_value
+```
 The __retailer's optimal order quantity__ satisfies the following equation:  
 F(Q_c*)=(p+s-c)/(p+s-v)  
+
 ## __The Newsvendor Model with Barter Exchange__  
 In this part, we are going to discuss the retailer's profits for the following three cases:  
 
@@ -161,6 +180,30 @@ To sum up the above three cases, we have
 <p style="text-align:center">
   <img src="./retailer's profit of the three cases.png"/>
 </p>
+```python
+"""易貨交換利潤"""
+def profit(Q, d, Q0, r):
+
+    if Q <= d:
+        return Q*(price - cost)- s*(d - Q) - Q0*price
+    
+    elif Q >= d and Q <= d + Q0:
+        return d*price - cost*Q + r*price*(Q - d)- price*(Q0 - Q + d)
+    
+    else:
+        return d*price - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
+```
+# The newsvendor model with barter exchange expected profit
+```python
+"""易貨交換最佳訂貨量(常態分布)"""
+def optorder(Q0, r):
+    
+    profitline = [np.sum(np.array([profit(Q, d, Q0, r) for d in x]) * y)for Q in x]
+    max_value = np.max(profitline)
+    max_indx = np.argmax(profitline)
+    
+    return max_indx, max_value
+```
 
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` and `barter uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following are the sensitivity analyses of `demand uncertainty` and `barter uncertainty`.  
