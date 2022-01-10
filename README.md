@@ -116,6 +116,18 @@ from IPython.html.widgets import interact
 def normalpdf(x, u, v):
     return 1 / (v * np.sqrt(2 * np.pi)) * np.exp(-(x - u) ** 2 / 2 / v**2)
 ```
+## Parameter setting
+```python 
+#parameter
+u = 200  # 均值
+v = 30   # 標準差
+x = np.arange(0,1000, 1)
+y = normalpdf(x, u, v)   #需求服從常態  
+price = 50  #售價  
+cost = 20   #成本
+s = 10      #短缺成本
+vi = 15     #殘值
+```
 ## __The Classical Newsvendor Model with Consumption__  
 In this section, we incorporate the retailer's consumption into the model.  
 The __retailer's profit per period__ is  
