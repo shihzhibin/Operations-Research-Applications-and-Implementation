@@ -14,6 +14,7 @@
       <ul>
         <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
+        <li><a href="#the Newsvendor Model with Barter Exchange - Demand uncertainty">The Newsvendor Model with Barter Exchange - Demand uncertainty</a></li>
       </ul>
     </li>
     <li><a href="#visualization">Visualization</a></li>
@@ -209,6 +210,56 @@ def optorder(Q0, r):
     return max_indx, max_value
 ```
 
+# The Newsvendor Model with Barter Exchange - Demand uncertainty
+
+__Case 1.__: 0 ≤ w ≤ 1
+(1)When Q ≤ x, i.e., the retailer’s order quantity Q is less than the customer demand x, the retailer pays the shortage penalty costs for the unsatisfied demand, 
+So the retailer’s profit is  `πu(Q,x) = (p-c)Q-s(x-Q)-pQ0`.
+
+(2)When x < Q ≤ x + wQ0 since the order quantity Q is greater than the customer demand x, Q − x units of the product are unsold. The retailer trades Q − x units of the product A, pays the commission rp(Q − x), and buys Q0 − Q + x units of the product A from the market. So the retailer’s profit is  `πu(Q,x) = px-rp(Q-x)-p(Q0-Q+x)-cQ`
+
+(3)When Q > x + wQ0, the retailer barters its product A for all the product it needs at the cost of the commission rpwQ0, buys (1 − w)Q0 units of the product A from the market, and disposes of the rest the product A at v. So the retailer’s profit is `πu(Q,x) = px-rpwQ0+v(Q-wQ0-x)-cQ-(1-w)pQ0`
+
+__Case 2.__: w > 1
+(4)When Q ≤ x, i.e., the retailer’s order quantity Q is less than the customer demand x, the retailer pays the shortage penalty costs for the unsatisfied demand, 
+So the retailer’s profit is `πu(Q,x) = (p-c)Q-s(x-Q)-pQ0`
+
+(5)When x < Q ≤ x + Q0, since the order quantity Q is greater than the customer demand x, Q − x units of products are unsold.Supply is wQ0 and all the unsold products can be traded on the platform. Then the retailer buys Q0 − Q + x units of the product A, trades Q − x units on the platform.
+So the retailer’s profit is `πu(Q,x) = px-rp(Q-x)-p(Q0-Q+x)-cQ`
+
+(6)When Q > x + Q0, since the order quantity Q is greater than the customer demand x, the supply is wQ0, then Q − x units of the product are unsold and can be traded on the platform. So the retailer’s profit is. So the retailer’s profit is `πu(Q,x) = px-rpQ0+v(Q-Q0-x)-cQ`
+
+```python
+"""不確定性易貨交換利潤"""
+def uncertainbarter_profit(Q, d, Q0, r, w):
+
+    if Q <= d:
+        return Q*(price - cost)- s*(d - Q) - Q0 * price
+    
+    elif Q > d and Q <= d + w*Q0:
+        return d*price - cost*Q - r*price*(Q - d)- price*(Q0 - Q + d)
+    
+    else:
+        
+        if w>=0 and w<1:
+            return d*price - cost*Q - r*price*w*Q0 + vi*(Q - w*Q0 - d) - (1-w)*price*Q0
+        else: 
+            return d*price  - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
+```
+
+The retailer’s expected profit
+
+```python
+"""不確定性易貨交換最佳訂貨量(常態分布)"""
+def u_optorder(Q0, r, wu, wv):
+    
+    wy = normalpdf(x, wu, wv)
+    profitline = [np.sum(np.array([np.sum(np.array([uncertainbarter_profit(Q, d, Q0, r, w) for d in x]) * y)for w in x])*wy) for Q in x]
+    max_value = np.max(profitline)
+    max_indx = np.argmax(profitline)
+    
+    return max_indx, max_value
+```
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` and `barter uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following are the sensitivity analyses of `demand uncertainty` and `barter uncertainty`.  
 __1. Demand uncertainty__  
