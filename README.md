@@ -213,6 +213,7 @@ def optorder(Q0, r):
 # The Newsvendor Model with Barter Exchange - Demand uncertainty
 
 __Case 1.__: 0 ≤ w ≤ 1
+
 (1)When Q ≤ x, i.e., the retailer’s order quantity Q is less than the customer demand x, the retailer pays the shortage penalty costs for the unsatisfied demand, 
 So the retailer’s profit is  `πu(Q,x) = (p-c)Q-s(x-Q)-pQ0`.
 
@@ -221,6 +222,7 @@ So the retailer’s profit is  `πu(Q,x) = (p-c)Q-s(x-Q)-pQ0`.
 (3)When Q > x + wQ0, the retailer barters its product A for all the product it needs at the cost of the commission rpwQ0, buys (1 − w)Q0 units of the product A from the market, and disposes of the rest the product A at v. So the retailer’s profit is `πu(Q,x) = px-rpwQ0+v(Q-wQ0-x)-cQ-(1-w)pQ0`
 
 __Case 2.__: w > 1
+
 (4)When Q ≤ x, i.e., the retailer’s order quantity Q is less than the customer demand x, the retailer pays the shortage penalty costs for the unsatisfied demand, 
 So the retailer’s profit is `πu(Q,x) = (p-c)Q-s(x-Q)-pQ0`
 
