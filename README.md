@@ -182,11 +182,10 @@ To sum up the above three cases, we have
 <p style="text-align:center">
   <img src="./retailer's profit of the three cases.png"/>
 </p>
-```python
 
+```python
 """易貨交換利潤"""
 def profit(Q, d, Q0, r):
-
     if Q <= d:
         return Q*(price - cost)- s*(d - Q) - Q0*price
     
