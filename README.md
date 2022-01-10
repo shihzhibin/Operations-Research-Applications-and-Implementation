@@ -148,6 +148,7 @@ The __retailer's expected profit__ is
 <p style="text-align:center">
   <img src="./retailer's expected profit.png"/>
 </p>
+
 ```python
 """典型易貨交換最佳訂貨量(常態分布)"""
 def class_optorder(Q0):
@@ -160,6 +161,7 @@ def class_optorder(Q0):
 ```
 The __retailer's optimal order quantity__ satisfies the following equation:  
 F(Q_c*)=(p+s-c)/(p+s-v)  
+
 
 ## __The Newsvendor Model with Barter Exchange__  
 In this part, we are going to discuss the retailer's profits for the following three cases:  
@@ -181,6 +183,7 @@ To sum up the above three cases, we have
   <img src="./retailer's profit of the three cases.png"/>
 </p>
 ```python
+
 """易貨交換利潤"""
 def profit(Q, d, Q0, r):
 
@@ -193,7 +196,9 @@ def profit(Q, d, Q0, r):
     else:
         return d*price - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
+
 # The newsvendor model with barter exchange expected profit
+
 ```python
 """易貨交換最佳訂貨量(常態分布)"""
 def optorder(Q0, r):
