@@ -313,15 +313,6 @@ Different from the effect of demand uncertainty, with increasing barter supply u
   <center><b>Fig. 6.</b> Impact of demand uncertainty on inventory and profit increase</center>
 </p>
 
-<p style="text-align:center">
-  <img src="./Fig.7.png" width="400" height="300"/>
-  <center><b>Fig. 7.</b> Impact of barter uncertainty on the optimal inventory and profit</center>
-</p>
-
-<p style="text-align:center">
-  <img src="./Fig.8.png" width="400" height="300"/>
-  <center><b>Fig. 8.</b> Impact of barter uncertainty on inventory and profit increase</center>
-</p>
 
 # __Conclusion__ 
 * Our work provides the guidance for the retailer on how to make inventory decision when using the barter platform. With higher demand uncertainty, the retailer should increase the order quantity, while with higher barter uncertainty the retailer should order less products.  
