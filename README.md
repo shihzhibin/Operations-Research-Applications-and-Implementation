@@ -273,8 +273,8 @@ def u_optorder(Q0, r, wu, wv):
 ```
 
 <p style="text-align:center">
-  <img src="./Comparison.png" width="400" height="300"/>
   <center>Classical model vs Barter exchange model</center>
+  <img src="./Comparison.png" width="400" height="300"/>
 </p>
 
 # __Visualization__  
