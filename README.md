@@ -278,10 +278,7 @@ Different from the effect of demand uncertainty, with increasing barter supply u
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
 
-<p style="text-align:center">
-  <img src="./Fig.3.png" width="400" height="300"/>
-  <center><b>Fig. 3.</b> Impact of the commission on optimal inventory and profit</center>
-</p>
+
 
 <p style="text-align:center">
   <img src="./Fig.4.png" width="400" height="300"/>
