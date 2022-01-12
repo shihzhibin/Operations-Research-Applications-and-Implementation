@@ -25,7 +25,7 @@
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
         <ul>
           <li><a href="#the-newsvendor-model-with-barter-exchange-expected-profit">The Newsvendor Model with Barter Exchange Expected Profit</a></li>
-          <li><a href="#the-newsvendor-model-with-barter-exchange-demand-uncertainty">The Newsvendor Model with Barter Exchange - Demand uncertainty</a></li>
+          <li><a href="#the-newsvendor-model-with-barter-exchange-demand-uncertainty">The Newsvendor Model with Barter Exchange: Demand uncertainty</a></li>
         </ul>
       </ul>
     </li>
@@ -222,7 +222,7 @@ def optorder(Q0, r):
     return max_indx, max_value
 ```
 
-### __The Newsvendor Model with Barter Exchange - Demand uncertainty__
+### __The Newsvendor Model with Barter Exchange: Demand uncertainty__
 
 __Case 1.__: 0 ≤ w ≤ 1
 
