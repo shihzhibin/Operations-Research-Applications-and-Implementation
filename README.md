@@ -21,7 +21,8 @@
     <li>
       <a href="#model">The Model</a>
       <ul>
-        <li><a href="#python-and-gurobi-implementation">Python and Gurobi Implementation</a></li>
+        <li><a href="#python-+-gurobi-implementation">Python + Gurobi Implementation</a></li>
+        <li><a href="#parameter-setting">Parameter Setting</a></li>
         <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
         <ul>
@@ -130,7 +131,7 @@ from IPython.html.widgets import interact
 def normalpdf(x, u, v):
     return 1 / (v * np.sqrt(2 * np.pi)) * np.exp(-(x - u) ** 2 / 2 / v**2)
 ```
-## Parameter setting
+## __Parameter Setting__
 ```python 
 #parameter
 u = 200  # 均值
