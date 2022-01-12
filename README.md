@@ -23,6 +23,7 @@
       <ul>
         <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
+        <li><a href="#the-newsvendor-model-with-barter-exchange-expected-profit">The Newsvendor Model with Barter Exchange Expected Profit</a></li>
         <li><a href="#the Newsvendor Model with Barter Exchange - Demand uncertainty">The Newsvendor Model with Barter Exchange - Demand uncertainty</a></li>
       </ul>
     </li>
@@ -206,7 +207,7 @@ def profit(Q, d, Q0, r):
         return d*price - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-# The newsvendor model with barter exchange expected profit
+## __The Newsvendor Model with Barter Exchange Expected Profit__
 
 ```python
 """易貨交換最佳訂貨量(常態分布)"""
