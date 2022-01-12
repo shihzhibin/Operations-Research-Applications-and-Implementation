@@ -21,6 +21,7 @@
     <li>
       <a href="#model">The Model</a>
       <ul>
+        <li><a href="#python-gurobi-implementation">Python + Gurobi Implementation
         <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
         <ul>
