@@ -13,7 +13,7 @@
   <summary><b>Table of Contents</b></summary>
   <ol>
     <li>
-      <a href="#introduction">1. Introduction</a>
+      <a href="#introduction">Introduction</a>
       <ul>
         <li><a href="#the-barter-exchange">The Barter Exchange</a></li>
     </li>
