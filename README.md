@@ -13,7 +13,7 @@
   <summary><b>Table of Contents</b></summary>
   <ol>
     <li>
-      <a href="#introduction">Introduction</a>
+      <a href="#introduction">1. Introduction</a>
       <ul>
         <li><a href="#the-barter-exchange">The Barter Exchange</a></li>
     </li>
@@ -36,7 +36,7 @@
   </ol>
 </details>
 
-# __Introduction__
+# __1. Introduction__
 This repository is a tutorial for the implementation of __The newsvendor problem with barter exchange__ based on the design of the paper _"The newsvendor problem with barter exchange"_  by [Hua, G., Zhang, Y., Chang, T.C.E, Wang, S., & Zhang, J. (2020)]("https://www.sciencedirect.com/science/article/abs/pii/S0925527313001837?via%3Dihub"). I wrote this tutorial as a showcase of application for the course "_Operations Research Applications and Implementation_" intructed by professor _Chia-Yen Lee_.  
 ## __The Barter Exchange__
 > The barter exchange is an alternative to move distressed inventory, it has become increasingly popular in business. Many companies barter their unsold product for the product they need via barter exchange platforms at full prices.  
