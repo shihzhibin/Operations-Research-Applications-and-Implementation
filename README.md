@@ -19,7 +19,7 @@
     </li>
       </ul>
     <li>
-      <a href="#model">The Model</a>
+      <a href="#the-model">The Model</a>
       <ul>
         <li><a href="#python-and-gurobi-implementation">Python and Gurobi Implementation</a></li>
         <li><a href="#parameter-setting">Parameter Setting</a></li>
