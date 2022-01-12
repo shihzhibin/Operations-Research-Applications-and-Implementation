@@ -118,7 +118,7 @@ __There are two basic types of barter:__
   </tr>
 </table>
 
-## Python + Gurobi Implementation
+## __Python and Gurobi Implementation__
 ```python 
 #Download package
 import numpy as np
