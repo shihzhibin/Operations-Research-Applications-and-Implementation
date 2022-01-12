@@ -269,7 +269,7 @@ As we can see in the figures, with `the increasing value of Q_0`, the retailer's
 __2. Barter uncertainty__  
 Different from the effect of demand uncertainty, with increasing barter supply uncertainty, both the retailer's order quantity and profit decrease (Fig. 7). The increment rates of inventory and profit are decreasing, which indicates barter uncertainty will dampen the profitability of barter (Fig. 8). Consequently, __the retailer should decrease inventory when barter uncertainty becomes larger__.
 <p style="text-align:center">
-  <img src="./Fig.1.png" width="400" height="300"/>
+  
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
