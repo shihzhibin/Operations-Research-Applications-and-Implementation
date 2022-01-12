@@ -23,8 +23,10 @@
       <ul>
         <li><a href="#the-classical-newsvendor-model-with-consumption">The Classical Newsvendor Model with Consumption</a></li>
         <li><a href="#the-newsvendor-model-with-barter-exchange">The Newsvendor Model with Barter Exchange</a></li>
-        <li><a href="#the-newsvendor-model-with-barter-exchange-expected-profit">The Newsvendor Model with Barter Exchange Expected Profit</a></li>
-        <li><a href="#the Newsvendor Model with Barter Exchange - Demand uncertainty">The Newsvendor Model with Barter Exchange - Demand uncertainty</a></li>
+        <ul>
+          <li><a href="#the-newsvendor-model-with-barter-exchange-expected-profit">The Newsvendor Model with Barter Exchange Expected Profit</a></li>
+          <li><a href="#the Newsvendor Model with Barter Exchange - Demand uncertainty">The Newsvendor Model with Barter Exchange - Demand uncertainty</a></li>
+        </ul>
       </ul>
     </li>
     <li><a href="#visualization">Visualization</a></li>
