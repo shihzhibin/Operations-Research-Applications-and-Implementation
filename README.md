@@ -263,7 +263,7 @@ def uncertainbarter_profit(Q, d, Q0, r, w):
             return d*price  - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-The retailer’s expected profit
+__The retailer’s expected profit__
 
 ```python
 """不確定性易貨交換最佳訂貨量(常態分布)"""
