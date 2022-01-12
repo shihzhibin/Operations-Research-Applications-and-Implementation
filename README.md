@@ -209,7 +209,7 @@ def profit(Q, d, Q0, r):
         return d*price - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-## __The Newsvendor Model with Barter Exchange Expected Profit__
+### __The Newsvendor Model with Barter Exchange Expected Profit__
 
 ```python
 """易貨交換最佳訂貨量(常態分布)"""
@@ -222,7 +222,7 @@ def optorder(Q0, r):
     return max_indx, max_value
 ```
 
-# The Newsvendor Model with Barter Exchange - Demand uncertainty
+### __The Newsvendor Model with Barter Exchange - Demand uncertainty__
 
 __Case 1.__: 0 ≤ w ≤ 1
 
