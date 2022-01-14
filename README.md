@@ -307,7 +307,7 @@ Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./figure516.PNG"/>
 
 
 <p style="text-align:center">
-  <img src="./Fig.1.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.1.png" width="400" height="300"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit.</center>
 </p>
 
