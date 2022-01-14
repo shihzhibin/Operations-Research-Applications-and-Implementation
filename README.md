@@ -300,12 +300,18 @@ __Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F
 
 As we can see in the figures, with `the increasing value of Q_0`, the retailer's order quantity `increases` while the profit `decreases` (Fig. 1), and the increment rates also increase (Fig. 2). The `decreasing commission` will cause the retailer's order quantity and profit `increase` (Fig. 3), and their increment rates also increase (Fig. 4). From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases` (Fig. 5). Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty (Fig. 6), which indicates __barter can effectively cope with variance in demand__.  
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Figs. 1-2 verify <img src="./fig3.PNG"/>. From Eq. (5), <img src="./figure513.PNG"/> <img src="./figure514.PNG"/>
+Furthermore, <img src="./figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
+Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./figure516.PNG"/>
+
+Fig 1 -> Shows that with `increasing Q0`, the `retailer’s order quantity increases` while the `profit decreases`.
 <p style="text-align:center">
   <img src="./Fig.1.png" width="400" height="300"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
-
+Fig 2 -> Compared with the classical newsvendor, barter can improve the profit and the optimal order quantity
 <p style="text-align:center">
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
@@ -313,7 +319,7 @@ As we can see in the figures, with `the increasing value of Q_0`, the retailer's
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-we have <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  . 
+Figs. 3-4 verify <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  . 
 Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./eq512.PNG"/>
 
 <p style="text-align:center">
@@ -326,6 +332,10 @@ Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter com
   <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
 </p>
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 <p style="text-align:center">
   <img src="./Fig.5.png" width="400" height="300"/>
   <center><b>Fig. 5.</b> Impact of demand uncertainty on the optimal inventory and profit</center>
@@ -335,6 +345,26 @@ Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter com
   <img src="./Fig.6.png" width="400" height="300"/>
   <center><b>Fig. 6.</b> Impact of demand uncertainty on inventory and profit increase</center>
 </p>
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+<p style="text-align:center">
+  <img src="./figure1.png" width="400" height="300"/>
+  <center><b>Fig. 7.</b> Impact of barter uncertainty on the optimal inventory and profit</center>
+</p>
+
+<p style="text-align:center">
+  <img src="./figure2.png" width="400" height="300"/>
+  <center><b>Fig. 8.</b> Impact of barter uncertainty on inventory and profit increase</center>
+</p>
+
+
+
+
 
 
 # __Conclusion__ 
