@@ -193,7 +193,7 @@ __Case 3.__ Q>x+Q_0
 In this case, the retailer barters its product A for all the product it needs at the cost of `the commission rpQ_0` and disposes of the rest the product at v  
 The retailer's profit `π(Q,x) = px-rpQ_0+v(Q-Q_0-x)-cQ`  
 
-Schematic diagram as shown below: Red candlesticks indicate demand and Yellow candlesticks indicate order quantity
+Schematic diagram as shown below: `Red candlesticks` indicate `demand` and `Yellow candlesticks` indicate `order quantity`
 <p style="text-align:center">
   <img src="./candle plot.PNG"/>
 </p>
