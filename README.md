@@ -315,7 +315,7 @@ __Precautions: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8__
     <td>The retailer’s Expected profit with uncertain barter</td>
   </tr>
 </table>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Figs. 1-2 verify <img src="./Formula/fig33.PNG"/>. From __Eq. (5)__, <img src="./Formula/figure513.PNG"/> <img src="./Formula/figure514.PNG"/>
 Furthermore, <img src="./Formula/figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
