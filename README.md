@@ -305,21 +305,19 @@ Figs. 1-2 verify <img src="./fig33.PNG"/>. From Eq. (5), <img src="./figure513.P
 Furthermore, <img src="./figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
 Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./figure516.PNG"/>
 
-Fig 1 -> Shows that with `increasing Q0`, the `retailer’s order quantity increases` while the `profit decreases`.
+
 
 <p style="text-align:center">
   <img src="./Fig.1.png" width="400" height="300"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
+  <center><b>Shows that with `increasing Q0`, the `retailer’s order quantity increases` while the `profit decreases`.</center>
 </p>
 
-
-
-
-Fig 2 -> Compared with the classical newsvendor, barter can improve the profit and the optimal order quantity
-
+  
 <p style="text-align:center">
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
+  <center><b>Compared with the classical newsvendor, barter can improve the profit and the optimal order quantity.</center>
 </p>
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
