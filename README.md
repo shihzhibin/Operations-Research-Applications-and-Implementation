@@ -174,8 +174,7 @@ def class_optorder(Q0):
     
     return max_indx, max_value
 ```
-The __retailer's optimal order quantity__ satisfies the following equation:  
-F(Q_c*)=(p+s-c)/(p+s-v)  
+The __retailer's optimal order quantity__ satisfies the following equation:  `F(Q_c*)=(p+s-c)/(p+s-v)` 
 
 
 ## __The Newsvendor Model with Barter Exchange__  
