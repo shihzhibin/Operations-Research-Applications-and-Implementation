@@ -294,7 +294,12 @@ def u_optorder(Q0, r, wu, wv):
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following is the sensitivity analyses of `demand uncertainty`.  
 
-__Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F (Q∗ ) + [(1 − r)p − v]F (Q∗ − Q0) = p + s − c`.
+__Theorem 1__, The retailer’s optimal order quantity `Q∗` satisfies `(rp + s)F (Q∗ ) + [(1 − r)p − v]F (Q∗ − Q0) = p + s − c`.
+
+__Precautions__: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8     
+Inventory increase is measured by <img src="./Formula/formula 3.PNG"/> and 
+
+profit increase is measured by  <img src="./Formula/formula 4.PNG"/> and 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
