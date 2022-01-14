@@ -300,7 +300,7 @@ __Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Figs. 1-2 verify <img src="./fig33.PNG"/>. From Eq. (5), <img src="./figure513.PNG"/> <img src="./figure514.PNG"/>
+Figs. 1-2 verify <img src="./fig33.PNG"/>. From __Eq. (5)__, <img src="./figure513.PNG"/> <img src="./figure514.PNG"/>
 Furthermore, <img src="./figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
 Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./figure516.PNG"/>
 
@@ -323,7 +323,7 @@ Shows that with `increasing Q0`, the `retailer’s order quantity increases` whi
 
 Compared with the `classical newsvendor`, `barter` can improve the `profit` and the `optimal order quantity`. 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Figs. 3-4 verify <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  . 
 Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./eq512.PNG"/>
