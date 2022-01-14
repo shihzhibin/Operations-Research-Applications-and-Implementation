@@ -333,10 +333,13 @@ Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter com
   <center><b>Fig. 3.</b> Impact of the commission on optimal inventory and profit</center>
 </p>
 
+
 <p style="text-align:center">
   <img src="./Fig.4.png" width="400" height="300"/>
   <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
 </p>
+
+Above plot show that with `decreasing commission`, the retailer’s `order quantity and profit increase`, and their increment rates also increase.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
