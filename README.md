@@ -310,7 +310,7 @@ __Precautions: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8__
   </tr>
   <tr>
     <td>E[πu(Qu)]</td>
-    <td>Expected profit</td>
+    <td>The retailer’s Expected profit with uncertain barter</td>
   </tr>
 </table>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
