@@ -320,6 +320,7 @@ Shows that with `increasing Q0`, the `retailer’s order quantity increases` whi
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
+
 Compared with the `classical newsvendor`, `barter` can improve the `profit` and the `optimal order quantity`. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -338,12 +339,14 @@ Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter com
   <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
 </p>
 
+
 Above plot show that with `decreasing commission`, the retailer’s `order quantity and profit increase`, and their increment rates also increase.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases`(Fig.5).
 
-Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates __barter can effectively cope with variance in demand__.  
+Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates barter can effectively cope with variance in demand.  
 
 <p style="text-align:center">
   <img src="./Fig.5.png" width="400" height="300"/>
