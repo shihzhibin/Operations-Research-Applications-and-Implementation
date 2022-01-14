@@ -136,7 +136,7 @@ def normalpdf(x, u, v):
 #parameter
 u = 200  # 均值
 v = 30   # 標準差
-x = np.arange(0,1000, 1)
+x = np.arange(u - 1 * u, u + 1 * u, 1)
 y = normalpdf(x, u, v)   #需求服從常態  
 price = 50  #售價  
 cost = 20   #成本
