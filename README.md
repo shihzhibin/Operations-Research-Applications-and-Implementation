@@ -1,4 +1,5 @@
-# Operations-Research-Applications-and-Implementation - The newsvendor problem with barter exchange
+# Operations-Research-Applications-and-Implementation 
+### **The newsvendor problem with barter exchange**
 
 ### **Team Member**    
 
