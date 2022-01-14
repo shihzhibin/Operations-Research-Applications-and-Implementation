@@ -195,7 +195,7 @@ The retailer's profit `π(Q,x) = px-rpQ_0+v(Q-Q_0-x)-cQ`
 
 Schematic diagram as shown below: Red candlesticks indicate demand and Yellow candlesticks indicate order quantity
 <p style="text-align:center">
-  <img src="./candle plot.png"/>
+  <img src="./candle plot.PNG"/>
 </p>
 
 
