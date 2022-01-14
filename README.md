@@ -321,7 +321,7 @@ Shows that with `increasing Q0`, the `retailer’s order quantity increases` whi
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
-Compared with the classical newsvendor, barter can improve the profit and the optimal order quantity. 
+Compared with the `classical newsvendor`, `barter` can improve the `profit` and the `optimal order quantity`. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
