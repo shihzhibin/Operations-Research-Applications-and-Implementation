@@ -217,7 +217,7 @@ def profit(Q, d, Q0, r):
         return d*price - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-### __The Newsvendor Model with Barter Exchange Expected Profit__
+### __The Newsvendor Model with Barter Exchange Expected Order Quantity__
 
 ```python
 """易貨交換最佳訂貨量(常態分布)"""
@@ -274,7 +274,7 @@ def uncertainbarter_profit(Q, d, Q0, r, w):
             return d*price  - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-__The retailer’s expected profit__
+__The retailer’s expected order quantity__
 
 ```python
 """The expected value of πu(Qu, x) gives the retailer’s expected profit"""
@@ -362,7 +362,7 @@ Besides, the increment rate of inventory is decreasing while the increment rate 
 
 Different from the effect of  `demand uncertainty `, (Fig. 7) shows that with  `increasing barter supply uncertainty`, both the retailer’s order quantity and profit decrease. Compared with the classical newsvendor, barter can still improve the retailer’s profit with higher order quantity.
 
-However, as shown in (Fig. 8), increment rates of inventory and profit are decreasing, which indicates that barter uncertainty will dampen the profitability of barter.Since withbarter uncertainty, the successful barter quantity can be lower or higher than the barter demand of the retailer.
+However, as shown in (Fig. 8), increment rates of inventory and profit are decreasing, which indicates that barter uncertainty will dampen the profitability of barter. Since with barter uncertainty, the successful barter quantity can be lower or higher than the barter demand of the retailer.
 
 
 <p style="text-align:center">
