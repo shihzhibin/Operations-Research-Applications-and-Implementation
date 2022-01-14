@@ -232,7 +232,7 @@ def optorder(Q0, r):
 
 ### __The Newsvendor Model with Barter Exchange: Demand uncertainty__
 
-`w` ~ N(u_w , σ_w) -> The barter supply is characterized by wQ0, w is random with mean uw and variance of σw. g(w) is the probability density function of w.
+`w` ~ N(![image](https://user-images.githubusercontent.com/73217181/149458569-2c78f6c4-0378-4a74-85dd-9109155953c9.png),![image](https://user-images.githubusercontent.com/73217181/149458529-d0dac641-7747-4d1b-97d9-19873fc0cc1a.png)) -> The barter supply is characterized by wQ0, w is random with mean uw and variance of σw. g(w) is the probability density function of w.
 
 We present the retailer’s profits for the following two cases, namely the barter supply is lower than the barter demand (0 ≤ w ≤ 1) and supply is higher than the barter demand (w > 1).
 
