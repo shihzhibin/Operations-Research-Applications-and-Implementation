@@ -317,7 +317,7 @@ Shows that with `increasing Q0`, the `retailer’s order quantity increases` whi
 
 
 <p style="text-align:center">
-  <img src="./Fig.2.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
 
@@ -329,13 +329,13 @@ Figs. 3-4 verify <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  
 Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./eq512.PNG"/>
 
 <p style="text-align:center">
-  <img src="./Fig.3.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.3.png" width="400" height="300"/>
   <center><b>Fig. 3.</b> Impact of the commission on optimal inventory and profit</center>
 </p>
 
 
 <p style="text-align:center">
-  <img src="./Fig.4.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.4.png" width="400" height="300"/>
   <center><b>Fig. 4.</b> Impact of the commission on the inventory and profit increase</center>
 </p>
 
@@ -349,12 +349,12 @@ From the demand perspective, with the increasing value of  `demand variance `, t
 Besides, the increment rate of inventory is decreasing while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates barter can effectively cope with variance in demand.  
 
 <p style="text-align:center">
-  <img src="./Fig.5.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.5.png" width="400" height="300"/>
   <center><b>Fig. 5.</b> Impact of demand uncertainty on the optimal inventory and profit</center>
 </p>
 
 <p style="text-align:center">
-  <img src="./Fig.6.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.6.png" width="400" height="300"/>
   <center><b>Fig. 6.</b> Impact of demand uncertainty on inventory and profit increase</center>
 </p>
 
@@ -366,12 +366,12 @@ However, as shown in (Fig. 8), increment rates of inventory and profit are decre
 
 
 <p style="text-align:center">
-  <img src="./figure1.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.7.png" width="400" height="300"/>
   <center><b>Fig. 7.</b> Impact of barter uncertainty on the optimal inventory and profit</center>
 </p>
 
 <p style="text-align:center">
-  <img src="./figure2.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fi.png" width="400" height="300"/>
   <center><b>Fig. 8.</b> Impact of barter uncertainty on inventory and profit increase</center>
 </p>
 
