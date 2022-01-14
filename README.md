@@ -232,6 +232,11 @@ def optorder(Q0, r):
 
 ### __The Newsvendor Model with Barter Exchange: Demand uncertainty__
 
+W ~ N(uw , σW) -> The barter supply is characterized by wQ0, w is random with mean uw and variance of σw. g(w) is the probability density function of w.
+
+We present the retailer’s profits for the following two cases, namely the barter supply is lower than the barter demand (0 ≤ w ≤ 1) and supply is higher than the barter demand (w > 1).
+
+
 __Case 1.__: 0 ≤ w ≤ 1
 
 (1)When Q ≤ x, i.e., the retailer’s order quantity Q is less than the customer demand x, the retailer pays the shortage penalty costs for the unsatisfied demand, 
@@ -252,7 +257,7 @@ So the retailer’s profit is `πu(Q,x) = px-rp(Q-x)-p(Q0-Q+x)-cQ`
 (6)When Q > x + Q0, since the order quantity Q is greater than the customer demand x, the supply is wQ0, then Q − x units of the product are unsold and can be traded on the platform. So the retailer’s profit is. So the retailer’s profit is `πu(Q,x) = px-rpQ0+v(Q-Q0-x)-cQ`
 
 ```python
-"""不確定性易貨交換利潤"""
+"""不確定性易貨交換利潤計算公式 case by case"""
 def uncertainbarter_profit(Q, d, Q0, r, w):
 
     if Q <= d:
@@ -272,7 +277,7 @@ def uncertainbarter_profit(Q, d, Q0, r, w):
 __The retailer’s expected profit__
 
 ```python
-"""不確定性易貨交換最佳訂貨量(常態分布)"""
+"""The expected value of πu(Qu, x) gives the retailer’s expected profit"""
 def u_optorder(Q0, r, wu, wv):
     
     wy = normalpdf(x, wu, wv)
@@ -291,16 +296,25 @@ def u_optorder(Q0, r, wu, wv):
 # __Visualization__  
 We conduct the __sensitivity analysis__ to examine the `demand uncertainty` on the newsvendor's decisions and profit. Taking the first derivative of `r` and `Q_0` in __Theorem 1__, the retailer's order quantity and profit `decreases` with barter commission, while the order quantity `increase`s and profit `decreases` with the value of the product that the retailer will buy. In addition, the profitability of barter `increases` with barter commission and `decreases` with the value of the product that the retailer will buy. The following is the sensitivity analyses of `demand uncertainty`.  
 
+__Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F (Q∗ ) + [(1 − r)p − v]F (Q∗ − Q0) = p + s − c`.
+
 As we can see in the figures, with `the increasing value of Q_0`, the retailer's order quantity `increases` while the profit `decreases` (Fig. 1), and the increment rates also increase (Fig. 2). The `decreasing commission` will cause the retailer's order quantity and profit `increase` (Fig. 3), and their increment rates also increase (Fig. 4). From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases` (Fig. 5). Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty (Fig. 6), which indicates __barter can effectively cope with variance in demand__.  
+
 <p style="text-align:center">
   <img src="./Fig.1.png" width="400" height="300"/>
   <center><b>Fig. 1.</b> Impact of Q_0 on the optimal inventory and profit</center>
 </p>
 
+
 <p style="text-align:center">
   <img src="./Fig.2.png" width="400" height="300"/>
   <center><b>Fig. 2.</b> Impact of Q_0 on inventory and profit increase</center>
 </p>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+we have <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  . 
+Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./eq512.PNG"/>
 
 <p style="text-align:center">
   <img src="./Fig.3.png" width="400" height="300"/>
