@@ -272,7 +272,7 @@ def uncertainbarter_profit(Q, d, Q0, r, w):
             return d*price  - cost*Q - r*price*Q0 + vi*(Q - Q0 - d)
 ```
 
-__The retailer’s expected order quantity__
+__The Newsvendor Model with the uncertainty (Expected Order Quantity)__
 
 ```python
 """The expected value of πu(Qu, x) gives the retailer’s expected profit"""
