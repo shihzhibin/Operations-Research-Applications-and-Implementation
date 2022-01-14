@@ -371,7 +371,7 @@ However, as shown in (Fig. 8), increment rates of inventory and profit are decre
 </p>
 
 <p style="text-align:center">
-  <img src="./Experiment plot/Fi.png" width="400" height="300"/>
+  <img src="./Experiment plot/Fig.8.png" width="400" height="300"/>
   <center><b>Fig. 8.</b> Impact of barter uncertainty on inventory and profit increase</center>
 </p>
 
