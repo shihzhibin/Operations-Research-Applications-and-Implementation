@@ -307,7 +307,7 @@ __Precautions: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8__
     <td>Description</td>
   </tr>
   <tr>
-    <td>Qu</td>
+    <td>Qu*</td>
     <td>The optimal order quantity in the model with uncertain barter</td>
   </tr>
   <tr>
