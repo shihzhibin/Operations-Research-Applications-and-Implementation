@@ -1,5 +1,5 @@
 # Operations-Research-Applications-and-Implementation 
-### ** Theme: The newsvendor problem with barter exchange **
+### Theme: The newsvendor problem with barter exchange 
 
 ### **Team Member**    
 
