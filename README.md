@@ -298,7 +298,7 @@ We conduct the __sensitivity analysis__ to examine the `demand uncertainty` on t
 
 __Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F (Q∗ ) + [(1 − r)p − v]F (Q∗ − Q0) = p + s − c`.
 
-As we can see in the figures, with `the increasing value of Q_0`, the retailer's order quantity `increases` while the profit `decreases` (Fig. 1), and the increment rates also increase (Fig. 2). The `decreasing commission` will cause the retailer's order quantity and profit `increase` (Fig. 3), and their increment rates also increase (Fig. 4). From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases` (Fig. 5). Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty (Fig. 6), which indicates __barter can effectively cope with variance in demand__.  
+As we can see in the figures, From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases` (Fig. 5). Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty (Fig. 6), which indicates __barter can effectively cope with variance in demand__.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Figs. 1-2 verify <img src="./fig33.PNG"/>. From Eq. (5), <img src="./figure513.PNG"/> <img src="./figure514.PNG"/>
@@ -342,13 +342,15 @@ Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter com
 Above plot show that with `decreasing commission`, the retailer’s `order quantity and profit increase`, and their increment rates also increase.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases`(Fig.5).
+Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates __barter can effectively cope with variance in demand__.  
 
 <p style="text-align:center">
   <img src="./Fig.5.png" width="400" height="300"/>
   <center><b>Fig. 5.</b> Impact of demand uncertainty on the optimal inventory and profit</center>
 </p>
+
+
 
 <p style="text-align:center">
   <img src="./Fig.6.png" width="400" height="300"/>
@@ -356,9 +358,10 @@ Above plot show that with `decreasing commission`, the retailer’s `order quant
 </p>
 
 
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Different from the effect of demand uncertainty, (Fig. 7) showsthat with increasing barter supply uncertainty, both the retailer’s order quantity and profit decrease. Compared with the classical newsvendor, barter can still improve the retailer’s profit with higher order quantity. However, as shown in (Fig. 8), increment rates
+of inventory and profit are decreasing, which indicates that barter uncertainty will dampen the profitability of barter.Since withbarter uncertainty, the successful barter quantity can be lower or higher than the barter demand of the retailer
 
 
 <p style="text-align:center">
@@ -372,9 +375,7 @@ Above plot show that with `decreasing commission`, the retailer’s `order quant
 </p>
 
 
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # __Conclusion__ 
 * Our work provides the guidance for the retailer on how to make inventory decision when using the barter platform. With higher demand uncertainty, the retailer should increase the order quantity, while with higher barter uncertainty the retailer should order less products.  
