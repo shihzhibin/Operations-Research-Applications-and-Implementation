@@ -147,7 +147,7 @@ vi = 15     #殘值
 In this section, we incorporate the retailer's consumption into the model.  
 The __retailer's profit per period__ is  
 <p style="text-align:center">
-  <img src="./retailer's profit.png"/>
+  <img src="./Formula/retailer's profit.png"/>
 </p>
 
 ```python
@@ -161,7 +161,7 @@ def class_profit(Q, d, Q0):
 ```
 The __retailer's expected profit__ is  
 <p style="text-align:center">
-  <img src="./retailer's expected profit.png"/>
+  <img src="./Formula/retailer's expected profit.png"/>
 </p>
 
 ```python
@@ -195,13 +195,13 @@ The retailer's profit `π(Q,x) = px-rpQ_0+v(Q-Q_0-x)-cQ`
 
 Schematic diagram as shown below: `Red candlesticks` indicate `demand` and `Yellow candlesticks` indicate `order quantity`
 <p style="text-align:center">
-  <img src="./candle plot.PNG"/>
+  <img src="./Formula/candle plot.PNG"/>
 </p>
 
 
 To sum up the above three cases, we have    
 <p style="text-align:center">
-  <img src="./retailer's profit of the three cases.png"/>
+  <img src="./Formula/retailer's profit of the three cases.png"/>
 </p>
 
 ```python
@@ -290,7 +290,7 @@ def u_optorder(Q0, r, wu, wv):
 
 <p style="text-align:center">
   <center>Classical model vs Barter exchange model</center>
-  <img src="./Comparison.png" width="400" height="300"/>
+  <img src="./Experiment plot/Comparison.png" width="400" height="300"/>
 </p>
 
 # __Visualization__  
@@ -300,9 +300,9 @@ __Theorem 1__, The retailer’s optimal order quantity Q∗ satisfies `(rp + s)F
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Figs. 1-2 verify <img src="./fig33.PNG"/>. From __Eq. (5)__, <img src="./figure513.PNG"/> <img src="./figure514.PNG"/>
-Furthermore, <img src="./figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
-Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./figure516.PNG"/>
+Figs. 1-2 verify <img src="./Formula/fig33.PNG"/>. From __Eq. (5)__, <img src="./Formula/figure513.PNG"/> <img src="./Formula/figure514.PNG"/>
+Furthermore, <img src="./Formula/figure515.PNG"/> Then, the decline rate with increasing `Q0` is faster than `E[π(Q)]`. 
+Besides `E[π(Q)] > E[πc(Q)]`,therefore <img src="./Formula/figure516.PNG"/>
 
 
 
@@ -325,8 +325,8 @@ Compared with the `classical newsvendor`, `barter` can improve the `profit` and 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Figs. 3-4 verify <img src="./eq5.PNG"/>. From Eq. (5)  <img src="./eq51.PNG"/>  . 
-Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./eq512.PNG"/>
+Figs. 3-4 verify <img src="./Formula/eq5.PNG"/>. From Eq. (5)  <img src="./Formula/eq51.PNG"/>  . 
+Furthermore, the expected profit `E[πc(Qc)]` is independent with the barter commission `r` , therefore  <img src="./Formula/eq512.PNG"/>
 
 <p style="text-align:center">
   <img src="./Experiment plot/Fig.3.png" width="400" height="300"/>
