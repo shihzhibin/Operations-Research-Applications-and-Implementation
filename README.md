@@ -344,9 +344,9 @@ Above plot show that with `decreasing commission`, the retailer’s `order quant
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-From the demand perspective, with the increasing value of demand variance, the retailer's order quantity `increases` while the profit `decreases`(Fig.5).
+From the demand perspective, with the increasing value of  `demand variance `, the retailer's  `order quantity ` increases while the `profit ` decreases(Fig.5).
 
-Besides, the increment rate of inventory is `decreasing` while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates barter can effectively cope with variance in demand.  
+Besides, the increment rate of inventory is decreasing while the increment rate of profit increasing with demand uncertainty(Fig.6), which indicates barter can effectively cope with variance in demand.  
 
 <p style="text-align:center">
   <img src="./Fig.5.png" width="400" height="300"/>
@@ -360,7 +360,7 @@ Besides, the increment rate of inventory is `decreasing` while the increment rat
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Different from the effect of demand uncertainty, (Fig. 7) showsthat with increasing barter supply uncertainty, both the retailer’s order quantity and profit decrease. Compared with the classical newsvendor, barter can still improve the retailer’s profit with higher order quantity.
+Different from the effect of  `demand uncertainty `, (Fig. 7) shows that with  `increasing barter supply uncertainty`, both the retailer’s order quantity and profit decrease. Compared with the classical newsvendor, barter can still improve the retailer’s profit with higher order quantity.
 
 However, as shown in (Fig. 8), increment rates of inventory and profit are decreasing, which indicates that barter uncertainty will dampen the profitability of barter.Since withbarter uncertainty, the successful barter quantity can be lower or higher than the barter demand of the retailer.
 
