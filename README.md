@@ -296,10 +296,8 @@ We conduct the __sensitivity analysis__ to examine the `demand uncertainty` on t
 
 __Theorem 1__, The retailer’s optimal order quantity `Q∗` satisfies `(rp + s)F (Q∗ ) + [(1 − r)p − v]F (Q∗ − Q0) = p + s − c`.
 
-__Precautions__: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8     
-Inventory increase is measured by <img src="./Formula/formula 3.PNG"/> and 
-
-profit increase is measured by  <img src="./Formula/formula 4.PNG"/> and 
+__Precautions: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8     
+`Inventory increase` is measured by <img src="./Formula/formula 3.PNG"/>  and  `profit increase` is measured by  <img src="./Formula/formula 4.PNG"/> 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
