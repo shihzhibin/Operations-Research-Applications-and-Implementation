@@ -299,6 +299,20 @@ __Theorem 1__, The retailer’s optimal order quantity `Q∗` satisfies `(rp + s
 __Precautions: Fig 2 、 Fig 4 、 Fig 6 、 Fig 8__    
 `Inventory increase` is measured by <img src="./Formula/formula 3.PNG"/>  and  `profit increase` is measured by  <img src="./Formula/formula 4.PNG"/> 
 
+<table>
+ <tr>
+    <td>Notation</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>Qu</td>
+    <td>The optimal order quantity in the model with uncertain barter</td>
+  </tr>
+  <tr>
+    <td>E[πu(Qu)]</td>
+    <td>Expected profit</td>
+  </tr>
+</table>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Figs. 1-2 verify <img src="./Formula/fig33.PNG"/>. From __Eq. (5)__, <img src="./Formula/figure513.PNG"/> <img src="./Formula/figure514.PNG"/>
